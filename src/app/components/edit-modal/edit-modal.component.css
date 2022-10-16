@@ -30,7 +30,8 @@
   border-radius: 25px;
   background: #1a4d2e;
   box-shadow: 11px 11px 23px #153e25, -11px -11px 23px #1f5c37;
-  min-width: 30%;
+  min-width: fit-content;
+  width: 30%;
   border: none;
   color: #f4f4f4;
 }

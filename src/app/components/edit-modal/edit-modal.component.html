@@ -11,10 +11,10 @@
       </div>
       <div class="modal-edit-portion p-5">
         <label class="ps-4 ms-3 mb-1" for="">Enter your change</label>
-        <input type="text" class="rounded-5 py-1 px-3 mb-5" [(ngModel)]="newValue">
-        <div class="button-group">
-          <button class="px-3 py-1 mx-3" (click)="makeChanges(newValue)">Change</button>
-          <button class="px-3 py-1 mx-3" (click)="closeModal()">Close</button>
+        <input type="text" class="rounded-5 py-1 px-3 mb-3" [(ngModel)]="newValue">
+        <div class="button-group row">
+          <button class="px-3 py-1 my-2 mx-3 col-md-6 col-sm-12" (click)="makeChanges(newValue)">Change</button>
+          <button class="px-3 py-1 my-2 mx-3 col-md-6 col-sm-12" (click)="closeModal()">Close</button>
         </div>
       </div>
     </div>
