@@ -1,0 +1,30 @@
+input {
+  min-width: 95%;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  font-size: 1rem;
+  background-color: #ede4e0;
+  border-radius: 50px;
+  color: #f4f4f4;
+  background: #1a4d2e;
+  box-shadow: inset 11px 11px 23px #153e25, inset -11px -11px 23px #1f5c37;
+}
+input:active,
+input:focus {
+  border: none;
+  outline: none;
+}
+.input-btn {
+  color: #f4f4f4;
+  background: #1a4d2e;
+  box-shadow: 11px 11px 23px #153e25, -11px -11px 23px #1f5c37;
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  font-size: 1.1rem;
+  transition: background-color 0.5s ease-in;
+}
+.input-btn:disabled {
+  background-color: #252525;
+}

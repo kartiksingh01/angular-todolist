@@ -1,0 +1,31 @@
+.row {
+  width: 95%;
+  color: #f4f4f4;
+  background: #1a4d2e;
+  box-shadow: inset 11px 11px 23px #153e25, inset -11px -11px 23px #1f5c37;
+}
+.col-md-1 {
+  align-self: center;
+}
+button {
+  background-color: #9e9176;
+  height: 100%;
+  width: max-content;
+  border: none;
+  color: #f4f4f4;
+  border-radius: 5px;
+}
+button:nth-child(3) {
+  background-color: #4aa3ba;
+}
+button:nth-child(2) {
+  background-color: #36ae7c;
+}
+button:nth-child(4) {
+  background-color: #eb5353;
+}
+.completed{
+  text-decoration: line-through;
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
+}

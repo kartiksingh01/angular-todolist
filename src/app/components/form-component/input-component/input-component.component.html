@@ -1,0 +1,2 @@
+<input type="text" placeholder="Enter Task" class="p-2 ps-4 rounded-5" [(ngModel)]="task">
+<button class="input-btn rounded-pill px-3 py-1 border-0 mt-3" [disabled]="task.length==0" (click)="addTask(task)">Add to List</button>
