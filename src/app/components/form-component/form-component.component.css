@@ -1,0 +1,6 @@
+.form-component {
+  min-height: 80vh;
+  border-radius: 25px;
+  background-color: #1a4d2e;
+  box-shadow: 11px 11px 23px #153e25, -11px -11px 23px #1f5c37;
+}

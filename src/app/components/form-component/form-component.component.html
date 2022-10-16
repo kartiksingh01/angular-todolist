@@ -1,0 +1,8 @@
+<div class="form-component p-2">
+  <div class="row mt-2">
+    <app-input-component></app-input-component>
+    </div>
+    <div class="row mt-3">
+    <app-list-component *ngFor="let task of tasks" [task]="task"></app-list-component>
+    </div>
+</div>

@@ -1,0 +1,6 @@
+<div class="row rounded-2 p-1 mb-2 mx-auto">
+  <h6 class="col-md-9 col-sm-9" [ngClass]="task.completed?'completed':''" >{{task.name}}</h6>
+  <button class="col-md-1 col-sm-1 mx-1 d-inline" (click)="checkItem(task)"> <i class="fas fa-check"></i></button>
+  <button class="col-md-1 col-sm-1 mx-1 d-inline" (click)="editItem(task)"> <i class="fas fa-pencil"></i></button>
+  <button class="col-md-1 col-sm-1 mx-1 d-inline" (click)="deleteItem(task)"> <i class="fas fa-trash"></i></button>
+</div>
